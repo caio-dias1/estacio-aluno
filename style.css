@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+#fundoAzul {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    background-color: hsl(222, 82%, 43%);
+    color: white;
+}
+
+#fundoAzul > p {
+    text-align: center;
+}
