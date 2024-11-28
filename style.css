@@ -132,12 +132,12 @@ body {
     }
     
     .div1 > p, .div2 > p, .div3 > p, .div4 > p {
-        margin: 20px 10px 20px 20px;
+        margin: 40px 10px 20px 20px;
         padding: 15px;
        font-size: 17px;
     }
 
     .div1 > span, .div2 > span, .div3 > span, .div4 > span {
-        font-size: 40px;
+        font-size: 30px;
         
     }
