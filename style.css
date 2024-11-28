@@ -42,7 +42,7 @@ body {
 #firstBox {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.278), rgba(245, 245, 245, 0.645));
     margin: auto;
-    width: 25rem;
+    width: 90%;
     height: 8rem;
     border: 2px solid white;
     border-radius: 20px 20px 0px 0px;
@@ -66,7 +66,7 @@ body {
     margin-top: 0px;
     margin-bottom: 10px;
     background-color: white;
-    width: 25rem;
+    width: 90%;
     height: 4rem;
     border: 2px solid white;
     border-radius: 0px 0px 20px 20px;
@@ -120,7 +120,7 @@ body {
     .div1, .div2, .div3, .div4 {
         border: 0.5px solid rgba(128, 128, 128, 0.336);
         box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.507);
-        width: 12rem;
+        width: 85%;
         height: 10rem;
         margin: 10px; /* Remove margens adicionais */
         box-sizing: border-box; /* Inclui a borda no tamanho */
