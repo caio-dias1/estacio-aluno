@@ -29,6 +29,11 @@ body {
     
 }
 
+.siglas {
+    height: 50px;
+    border-radius: 50%;
+}
+
 #materia {
     margin: 10px 0px 10px 20px
 }
@@ -49,15 +54,15 @@ body {
 }
 
 #fundoBranco {
-    display: flex;
-    flex-direction: column;
-    height: 80%;
-    background-color: whitesmoke;
+    height: 50%;
 }
 
 #secondBox {
-    display: flex;
+    display: grid;
     margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
     margin-top: 0px;
     margin-bottom: 10px;
     background-color: white;
@@ -66,6 +71,8 @@ body {
     border: 2px solid white;
     border-radius: 0px 0px 20px 20px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.515);
+    
+    
 
 }
 
@@ -96,9 +103,6 @@ body {
 
 }
 
-.material-symbols-outlined {
-    
-}
 
 .parent {
     display: grid;
@@ -106,8 +110,8 @@ body {
     grid-template-rows: 1fr 1fr;
     gap: 0;
     place-items: center;
-    height: 100%;
     width: 100%;
+    margin-bottom: 20px;
     }
 
     
@@ -115,7 +119,7 @@ body {
 
     .div1, .div2, .div3, .div4 {
         border: 0.5px solid rgba(128, 128, 128, 0.336);
-        box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.507);
+        box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.507);
         width: 85%;
         height: 90%;
         margin: 0; /* Remove margens adicionais */
@@ -130,7 +134,7 @@ body {
     .div1 > p, .div2 > p, .div3 > p, .div4 > p {
         margin: 130px 10px 20px 20px;
         padding: 15px;
-       font-size: 18px;
+       font-size: 17px;
     }
 
     .div1 > span, .div2 > span, .div3 > span, .div4 > span {
