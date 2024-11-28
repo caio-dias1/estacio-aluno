@@ -3,11 +3,6 @@
     padding: 0px;
 }
 
-body {
-    height: 100vh;
-    
-}
-
 #fundoAzul {
     display: flex;
     flex-direction: column;
@@ -54,6 +49,7 @@ body {
 
 #fundoBranco {
     height: 50%;
+    width: 100%;
 }
 
 #secondBox {
