@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to left top, rgb(248, 248, 248), rgb(211, 211, 235));
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#back {
+    color: rgb(9, 175, 175);
+}
+
+#cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+
+#cabecalho > p > img {
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+#dados {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: initial;
+    margin-left: 50px;
+    width: 100%;
+    margin-bottom: 1px;
+
+}
+
+#dados > p {
+    font-size: 13px;
+    margin: 8px;
+    margin-left: 0px;
+}
+
+#outros {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#outros > p {
+    font-size: 13px;
+
+}
+
+.infos {
+    margin-bottom: 20px;
+}
+
+.grey {
+
+    color: grey;
+    font-size: 12px;
+}
+
+.validacao {
+    color: grey;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+#estacio {
+    height: 40px;
+    width: 180px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+}
